@@ -11,7 +11,7 @@ var getHost = function() {
       resolve(host);
     }
   });
-}
+};
 
 var getJobs = function(host) {
   return new Promise(function(resolve, reject) {
